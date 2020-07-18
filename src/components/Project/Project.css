@@ -1,0 +1,83 @@
+.Project {
+  color: #fff;
+  margin: 15px 10px;
+  transition: transform 0.35s ease-in-out;
+}
+.Project-img {
+  position: relative;
+}
+.Project img {
+  width: 100%;
+  height: 100%;
+}
+.Project-img,
+.Project-cover,
+.Project img {
+  border-radius: 4px;
+}
+.Project-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.97;
+}
+.Project span {
+  font-weight: 900;
+  letter-spacing: 4px;
+}
+.Project-icon {
+  margin-top: 15px;
+}
+.Project-info {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  transition: opacity 0.2s ease-in;
+  width: 80%;
+}
+
+.Project-column:nth-child(1) .Project-cover {
+  background: #264653;
+}
+.Project-column:nth-child(2) .Project-cover {
+  background: #2a9d8f;
+}
+.Project-column:nth-child(3) .Project-cover {
+  background: #8ab17d;
+}
+.Project-column:nth-child(4) .Project-cover {
+  background: #e9c46a;
+}
+.Project-column:nth-child(5) .Project-cover {
+  background: #f4a261;
+}
+.Project-column:nth-child(6) .Project-cover {
+  background: #e76f51;
+}
+.Project:hover {
+  transform: scale(1.1);
+}
+.Project:hover .Project-cover {
+  opacity: 0.85;
+  background: rgb(0, 0, 0);
+}
+.Project:hover .Project-name {
+  opacity: 0;
+}
+.Project:hover .Project-icon {
+  opacity: 0;
+}
+.Project:hover .Project-info {
+  opacity: 1;
+}
