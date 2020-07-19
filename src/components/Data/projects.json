@@ -23,7 +23,7 @@
     "url": "https://i.imgur.com/J81l85D.png?1",
     "description": "bla bla bla",
     "tools": "Create-react-app, Local Storage",
-    "projectUrl": "https://iamamitito.github.io/quiz",
+    "projectUrl": "https://iamamitito.github.io/memory-cards",
     "icon": "fas fa-brain fa-2x"
   },
   {
@@ -32,7 +32,7 @@
     "url": "https://i.imgur.com/gzCY10b.png?1",
     "description": "bla bla bla",
     "tools": "Audio API",
-    "projectUrl": "https://iamamitito.github.io/quiz",
+    "projectUrl": "https://iamamitito.github.io/pokemon-battle",
     "icon": "fas fa-gamepad fa-2x"
   },
   {
@@ -41,7 +41,7 @@
     "url": "https://i.imgur.com/YN2zd5Y.png?1",
     "description": "bla bla bla",
     "tools": "Ruby on Rails, Google Maps API, Facebook Login API",
-    "projectUrl": "https://iamamitito.github.io/quiz",
+    "projectUrl": "https://testih.herokuapp.com",
     "icon": "fas fa-prescription-bottle-alt fa-2x"
   },
   {
@@ -50,7 +50,7 @@
     "url": "https://i.imgur.com/5fVMRfi.png?1",
     "description": "bla bla bla",
     "tools": "CSS grid, Fetch API",
-    "projectUrl": "https://iamamitito.github.io/quiz",
+    "projectUrl": "https://iamamitito.github.io/meal-finder",
     "icon": "fas fa-utensils fa-2x"
   }
 ]

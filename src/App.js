@@ -9,9 +9,9 @@ class App extends Component {
     return (
       <div className="App">
         <Switch>
-          <Route path="/projects" exact component={Projects} />
-          <Route path={'/projects/:name/:id'} exact component={FullProject} />
-          <Redirect from="/" to="/projects" />
+          <Route path="/" exact component={Projects} />
+          <Route path={'/:name/:id'} exact component={FullProject} />
+
         </Switch>
       </div>
     );
