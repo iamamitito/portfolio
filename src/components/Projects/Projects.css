@@ -1,16 +1,8 @@
-.Projects {
-  margin: 80px auto;
-  color: #585858;
-}
 .Projects h1,
-.Projects h3,
 .Projects-intro {
   margin: 60px 10px;
 }
-.Projects h3 {
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
+
 .Projects h1 {
   width: 80%;
   line-height: 45px;
