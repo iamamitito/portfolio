@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../Button/Button';
 import './Project.css';
 
 const project = (props) => {
@@ -16,7 +17,7 @@ const project = (props) => {
             <div className="Project-info">
                 <span>{props.name}</span>
                 <p>{props.tools}</p>
-                <button onClick={props.clicked}>View</button>
+                <Button clicked={props.clicked}>View</Button>
             </div>
 
         </div>

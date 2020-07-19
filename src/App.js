@@ -3,7 +3,6 @@ import FullProject from './components/FullProject/FullProject';
 import Projects from './components/Projects/Projects';
 import { Route, Redirect, Switch } from 'react-router-dom';
 import './bootstrap-grid.css';
-import './App.css';
 
 class App extends Component {
   render() {

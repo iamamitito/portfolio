@@ -1,5 +1,4 @@
 .Project {
-  color: #fff;
   margin: 15px 10px;
   transition: transform 0.35s ease-in-out;
 }
@@ -26,6 +25,7 @@
   flex-direction: column;
   justify-content: center;
   opacity: 0.97;
+  color: #fff;
 }
 .Project span {
   font-weight: 900;
@@ -45,6 +45,7 @@
   text-align: center;
   transition: opacity 0.2s ease-in;
   width: 80%;
+  color: #ddd;
 }
 
 .Project-column:nth-child(1) .Project-cover {
