@@ -8,9 +8,18 @@ const fullProject = (props) => {
         props.match.params.id === project.id ? (
             <div key={project.id}>
                 <h1>{project.name}</h1>
-                <img src={project.url} alt={project.name} />
-                <p>{project.description}</p>
-                <p><a href={project.projectUrl}>ver proyecto</a></p>
+                <div className="row">
+                    <div className="col-sm-12 col-md-6 ">
+                        <img src={project.url} alt={project.name} />
+                    </div>
+                    <div className="col-sm-12 col-md-6 ">
+                        <p>{project.description}</p>
+                        <p><a rel="noopener noreferrer" href={project.projectUrl} target="_blank">Try me <i className="fas fa-external-link-alt"></i></a></p>
+                    </div>
+
+                </div>
+
+
             </div>
         ) : null
     );

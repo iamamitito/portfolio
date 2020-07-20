@@ -3,7 +3,7 @@
     "id": "1",
     "name": "Music Player",
     "url": "https://i.imgur.com/peaWw6J.png?1",
-    "description": "bla bla bla",
+    "description": "I created this music player inspired by Apple Music's interface. I used the audio API and Rabbit Lyrics synchronizer's CDN to make the lyrics appear dynamically while the song is being played. Please try it out, the song is really good!",
     "tools": "Audio API, Rabbit Lyrics",
     "projectUrl": "https://iamamitito.github.io/music-player",
     "icon": "fas fa-music fa-2x"

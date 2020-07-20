@@ -5,7 +5,7 @@ import Project from '../Project/Project';
 import './Projects.css';
 
 class Projects extends Component {
-    projectSelectedHandler = (name, id) => {
+    projectSelectedHandler = (id) => {
         this.props.history.push({ pathname: `/${id}` });
     }
 
@@ -26,7 +26,7 @@ class Projects extends Component {
                             tools={project.tools}
                             icon={project.icon}
                             key={project.id}
-                            clicked={() => this.projectSelectedHandler(project.name, project.id)}
+                            clicked={() => this.projectSelectedHandler(project.id)}
                         />
                     })
                 }
