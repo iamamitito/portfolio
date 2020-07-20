@@ -4,9 +4,9 @@
 }
 
 .Projects h1 {
-  width: 80%;
+  width: 90%;
   line-height: 45px;
-  font-size: 40px;
+  font-size: 35px;
 }
 .Projects-intro {
   line-height: 35px;
@@ -16,4 +16,11 @@
 .Projects a {
   text-decoration: none;
   color: black;
+}
+
+@media (min-width: 600px) {
+  .Projects h1 {
+    font-size: 40px;
+    width: 80%;
+  }
 }

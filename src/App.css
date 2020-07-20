@@ -1,11 +1,14 @@
 * {
   box-sizing: border-box;
 }
-body {
+.App {
   color: #585858;
 }
 .App h3 {
   text-transform: uppercase;
   letter-spacing: 4px;
   margin-top: 90px;
+}
+.App h3 i {
+  font-weight: 900;
 }

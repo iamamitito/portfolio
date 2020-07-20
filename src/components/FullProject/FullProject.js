@@ -6,7 +6,8 @@ import './FullProject.css';
 const fullProject = (props) => {
     let fullProject = data.map(project =>
         props.match.params.id === project.id ? (
-            <div className="FullProject" key={project.id}>
+            <div key={project.id}>
+                <h1>{project.name}</h1>
                 <img src={project.url} alt={project.name} />
                 <p>{project.description}</p>
                 <p><a href={project.projectUrl}>ver proyecto</a></p>
@@ -15,7 +16,6 @@ const fullProject = (props) => {
     );
     return (
         <div className="FullProject">
-            <h1>{props.match.params.name}</h1>
             {fullProject}
         </div>
     );

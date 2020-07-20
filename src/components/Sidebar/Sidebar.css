@@ -1,0 +1,83 @@
+.Sidebar.open {
+  transform: translateX(0);
+}
+
+.Sidebar {
+  background-color: #3f454c;
+  border-right: 1px solid rgba(200, 200, 200, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  z-index: 100;
+  transform: translateX(-100%);
+  opacity: 9;
+  transition: transform 0.4s ease;
+}
+.Sidebar .logo {
+  display: flex;
+  justify-content: flex-end;
+  padding: 100px 70px 20px 0;
+}
+.Sidebar .logo img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border-bottom: 2.5px solid #b6bbc0;
+}
+.Sidebar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 70px;
+}
+.Sidebar ul li {
+  padding: 30px 0 30px 30px;
+}
+
+.Sidebar ul li a {
+  color: #ced4da;
+  text-decoration: none;
+  font-size: 14px;
+}
+.Sidebar p {
+  color: #f1f3f5;
+  line-height: 28px;
+  padding: 10px 60px 10px 10px;
+  text-align: right;
+  font-weight: 100;
+  font-size: 15px;
+}
+.Sidebar ul li a:hover {
+  color: #2a9d8f;
+}
+
+.Sidebar .toggle {
+  position: fixed;
+  top: 20px;
+  left: 310px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: #585858;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.Sidebar .toggle:focus {
+  outline: none;
+}
+
+@media (min-width: 600px) {
+  .Sidebar {
+    width: 450px;
+  }
+  .Sidebar .logo img {
+    height: 120px;
+    width: 120px;
+  }
+  .Sidebar .toggle {
+    top: 20px;
+    left: 460px;
+  }
+}
