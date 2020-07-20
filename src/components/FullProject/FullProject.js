@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../Data/projects.json';
+import data from '../../Data/projects.json';
 import './FullProject.css';
 
 
@@ -9,10 +9,10 @@ const fullProject = (props) => {
             <div key={project.id}>
                 <h1>{project.name}</h1>
                 <div className="row">
-                    <div className="col-sm-12 col-md-6 ">
+                    <div className="FullProject-img col-sm-12 col-lg-6">
                         <img src={project.url} alt={project.name} />
                     </div>
-                    <div className="col-sm-12 col-md-6 ">
+                    <div className="FullProject-description col-sm-12 col-lg-6">
                         <p>{project.description}</p>
                         <p><a rel="noopener noreferrer" href={project.projectUrl} target="_blank">Try me <i className="fas fa-external-link-alt"></i></a></p>
                     </div>

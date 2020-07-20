@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import data from '../Data/projects.json';
+import data from '../../Data/projects.json';
 import Project from '../Project/Project';
 
 import './Projects.css';
