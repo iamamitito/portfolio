@@ -16,10 +16,7 @@ const fullProject = (props) => {
                         <p>{project.description}</p>
                         <p><a rel="noopener noreferrer" href={project.projectUrl} target="_blank">Try me <i className="fas fa-external-link-alt"></i></a></p>
                     </div>
-
                 </div>
-
-
             </div>
         ) : null
     );

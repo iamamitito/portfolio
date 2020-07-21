@@ -10,3 +10,6 @@
 .Btn:hover {
   transform: scale(1.1);
 }
+.Btn:focus {
+  outline: none;
+}

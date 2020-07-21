@@ -32,7 +32,8 @@ class Projects extends Component {
                     })
                 }
             </div>
-        </div >);
+
+        </div>);
     }
 }
 export default Projects;
