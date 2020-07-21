@@ -7,6 +7,7 @@ import './Projects.css';
 class Projects extends Component {
     projectSelectedHandler = (id) => {
         this.props.history.push({ pathname: `/${id}` });
+        window.scrollTo(0, 125);
     }
 
     render() {

@@ -3,7 +3,7 @@
     "id": "1",
     "name": "Music Player",
     "url": "https://i.imgur.com/peaWw6J.png?1",
-    "description": "I created this music player inspired by Apple Music's interface. I used the audio API and Rabbit Lyrics synchronizer's CDN to make the lyrics appear dynamically while the song is being played. Please try it out, the song is really good!",
+    "description": "I created this music player inspired by Apple Music's interface. I used the audio API and Rabbit Lyrics synchronizer's CDN to make the lyrics appear dynamically while the song is being played. Try it out, it's a good song!",
     "tools": "Audio API, Rabbit Lyrics",
     "projectUrl": "https://iamamitito.github.io/music-player",
     "icon": "fas fa-music fa-2x"
@@ -12,7 +12,7 @@
     "id": "2",
     "name": "Quiz App",
     "url": "https://i.imgur.com/Tyonixn.png?1",
-    "description": "bla bla bla",
+    "description": "This is my version of the Quiz App's short course by James Quick on Udemy. Here I used HTML, CSS and JavaScript. I also fetched the trivia questions from the Open Trivia DB API and used Local Storage to keep track of the scores.",
     "tools": "Fetch API, Local Storage",
     "projectUrl": "https://iamamitito.github.io/quiz",
     "icon": "fas fa-question fa-2x"
@@ -21,7 +21,7 @@
     "id": "3",
     "name": "Memory Cards",
     "url": "https://i.imgur.com/J81l85D.png?1",
-    "description": "bla bla bla",
+    "description": "This project is a React adaptation of Brad Traversy's 20 vanilla JavaScript projects. I added some new features to this version such as being able to delete each card instad of just deleting all of them at once. Local Storage is used to save the created cards.",
     "tools": "Create-react-app, Local Storage",
     "projectUrl": "https://iamamitito.github.io/memory-cards",
     "icon": "fas fa-brain fa-2x"
@@ -30,7 +30,7 @@
     "id": "4",
     "name": "Pokémon Game",
     "url": "https://i.imgur.com/gzCY10b.png?1",
-    "description": "bla bla bla",
+    "description": "This was my first project focused on Vanilla JavaScript. It's based on the logic of the Rock, Papers, Scissors game. I really enjoyed creating this one since it was mostly a fun activity to get more familiar with the language.",
     "tools": "Audio API",
     "projectUrl": "https://iamamitito.github.io/pokemon-battle",
     "icon": "fas fa-gamepad fa-2x"
@@ -39,7 +39,7 @@
     "id": "5",
     "name": "Testih",
     "url": "https://i.imgur.com/YN2zd5Y.png?1",
-    "description": "bla bla bla",
+    "description": "I created this app by the end of 2019. I thought it was a good idea for people to have an app that would show them health centres where they could go and take the HIV test for free in Santiago. It also shows the centres where the PrEP pill is given. For this one, I used Ruby on Rails, Bootstrap, the Google maps API, the Facebook Login API and PostgreSQL for the data base.",
     "tools": "Ruby on Rails, Google Maps API, Facebook Login API",
     "projectUrl": "https://testih.herokuapp.com",
     "icon": "fas fa-prescription-bottle-alt fa-2x"
@@ -48,7 +48,7 @@
     "id": "6",
     "name": "Meal Finder",
     "url": "https://i.imgur.com/5fVMRfi.png?1",
-    "description": "bla bla bla",
+    "description": "This project is an adaptation of one of Brad Traversy's project. It only uses HTML,CSS and JavaSccript. In this small project the MealDB API was used to fetch the meals searched by the user.",
     "tools": "CSS grid, Fetch API",
     "projectUrl": "https://iamamitito.github.io/meal-finder",
     "icon": "fas fa-utensils fa-2x"
