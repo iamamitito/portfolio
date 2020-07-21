@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import FullProject from './components/FullProject/FullProject';
 import Projects from './components/Projects/Projects';
 import Sidebar from './components/Sidebar/Sidebar';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Redirect, Switch } from 'react-router-dom';
 import './bootstrap-grid.css';
 import './App.css';
 import Footer from './components/Footer/Footer';
@@ -24,8 +24,8 @@ class App extends Component {
 
           <h3><i className="fas fa-robot fa-2x"></i> Héctor Espinoza</h3>
           <Switch>
-            <Route path="/" exact component={Projects} />
-            <Route path={'/:id'} exact component={FullProject} />
+            <Route path="/portfolio" exact component={Projects} />
+            <Route path={'/portfolio/:id'} exact component={FullProject} />
           </Switch>
         </div>
         <Footer />
