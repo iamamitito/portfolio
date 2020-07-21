@@ -4,7 +4,7 @@ import './Project.css';
 
 const project = (props) => {
     return (<div className="Project-column col-sm-12 col-md-6 col-xl-4">
-        <div className="Project">
+        <div className="Project" onClick={props.clicked}>
             <div className="Project-img">
                 <img src={props.image} alt={props.name} />
                 <div className="Project-cover">
