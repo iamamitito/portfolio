@@ -1,0 +1,33 @@
+.Footer {
+  background: #f1f3f5;
+  height: fit-content;
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: #585858;
+}
+.Footer h3 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.Footer ul {
+  list-style-type: none;
+  padding: 10px 20px 40px 0;
+}
+.Footer ul li {
+  padding: 10px;
+  font-weight: 100;
+}
+.Footer-bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: #e9ecef;
+  height: fit-content;
+  text-align: center;
+}
+.Footer-bottom p {
+  font-weight: 200;
+  font-size: 13px;
+}

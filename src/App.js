@@ -5,6 +5,7 @@ import Sidebar from './components/Sidebar/Sidebar';
 import { Route, Switch } from 'react-router-dom';
 import './bootstrap-grid.css';
 import './App.css';
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
   state = {
@@ -15,17 +16,20 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App container">
+      <React.Fragment>
+        <div className="App container">
 
-        <Sidebar show={this.state.showSidebar}
-          clicked={this.showSidebarHandler} />
+          <Sidebar show={this.state.showSidebar}
+            clicked={this.showSidebarHandler} />
 
-        <h3><i className="fas fa-robot fa-2x"></i> Héctor Espinoza</h3>
-        <Switch>
-          <Route path="/" exact component={Projects} />
-          <Route path={'/:id'} exact component={FullProject} />
-        </Switch>
-      </div>
+          <h3><i className="fas fa-robot fa-2x"></i> Héctor Espinoza</h3>
+          <Switch>
+            <Route path="/" exact component={Projects} />
+            <Route path={'/:id'} exact component={FullProject} />
+          </Switch>
+        </div>
+        <Footer />
+      </React.Fragment>
     );
   }
 }
