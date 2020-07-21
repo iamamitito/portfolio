@@ -47,24 +47,34 @@
   width: 80%;
   color: #ddd;
 }
+.Project-info p {
+  font-weight: 200;
+  font-size: 15px;
+}
 
 .Project-column:nth-child(1) .Project-cover {
   background: #264653;
 }
 .Project-column:nth-child(2) .Project-cover {
-  background: #2a9d8f;
+  background: #287271;
 }
 .Project-column:nth-child(3) .Project-cover {
-  background: #8ab17d;
+  background: #2a9d8f;
 }
 .Project-column:nth-child(4) .Project-cover {
   background: #e9c46a;
 }
 .Project-column:nth-child(5) .Project-cover {
-  background: #f4a261;
+  background: #ee8959;
 }
 .Project-column:nth-child(6) .Project-cover {
   background: #e76f51;
+}
+.Project-column:nth-child(7) .Project-cover {
+  background: #2a9d8f;
+}
+.Project-column:nth-child(8) .Project-cover {
+  background: #287271;
 }
 .Project:hover {
   transform: scale(1.1);

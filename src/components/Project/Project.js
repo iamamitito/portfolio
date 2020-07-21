@@ -15,7 +15,7 @@ const project = (props) => {
                 </div>
             </div>
             <div className="Project-info">
-                <span>{props.name}</span>
+                <span>{props.name.toUpperCase()}</span>
                 <p>{props.tools}</p>
                 <Button clicked={props.clicked}>View</Button>
             </div>

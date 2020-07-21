@@ -18,6 +18,8 @@
 .Footer ul li {
   padding: 10px;
   font-weight: 100;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
 .Footer-bottom {
   position: absolute;

@@ -12,7 +12,7 @@ const sidebar = (props) => {
                 <div className="logo">
                     <img src={Me} alt="user" />
                 </div>
-                <p>My name is Héctor and I’m a BA in English linguistics and literature. I worked as an English teacher for about 4 years but fell in love with web development in the end. Some of the tools I have learnt up until this point are HTML, CSS, JavaScript, Ruby, Ruby on Rails, PostgreSQL, Bootstrap, Sass, Git, and React among others. <br /> I'm currently taking a Front-end Development course at Douc UC using VueJS.</p>
+                <p>My name is Héctor and I’m a BA in English linguistics and literature. I worked as an English teacher for about 4 years but fell in love with web development in the end. Some of the tools I have learnt up until this point are HTML, CSS, JavaScript, Ruby, Ruby on Rails, PostgreSQL, Bootstrap, Sass, Git, and React among others. <br /> I'm currently taking a Front-end Development course focused on VueJS at Douc UC.</p>
 
                 <ul>
                     <li><a rel="noopener noreferrer" href="https://github.com/iamamitito" target="_blank"><i className="fab fa-github fa-2x"></i></a></li>
