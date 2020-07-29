@@ -13,3 +13,7 @@
 .App h3 i {
   font-weight: 900;
 }
+
+.App h3 a {
+  color: #585858;
+}
