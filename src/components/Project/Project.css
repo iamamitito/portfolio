@@ -78,6 +78,9 @@
 .Project-column:nth-child(9) .Project-cover {
   background: #e76f51;
 }
+.Project-column:nth-child(10) .Project-cover {
+  background: #264653;
+}
 .Project:hover {
   transform: scale(1.1);
 }

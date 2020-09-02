@@ -1,6 +1,15 @@
 [
   {
     "id": "1",
+    "name": "Library",
+    "url": "https://i.imgur.com/8ek8wWp.png?1",
+    "description": "I created this library app to be more familiar with Vue CLI and how Firebase storage works. The idea is that the user enters the title and the author of a book they want to read. After it's read, the user can update the checkbox of the book and this moves to the 'Read Books' column.",
+    "tools": "Vue CLI, Firebase, Netlify",
+    "projectUrl": "https://iamamitito-library.netlify.app",
+    "icon": "fas fa-book fa-2x"
+  },
+  {
+    "id": "2",
     "name": "Lipsync Quiz",
     "url": "https://i.imgur.com/RbPiiGV.png?1",
     "description": "I created this quiz app not only to be more familiar with React, but also to have fun. Rupaul's drag race is one of my favourite shows and when I found out there was an API with data from the show I had to do something about it. For this project I used the No Key No Shade API, tailwindcss for the styles and react-router.",
@@ -9,7 +18,7 @@
     "icon": "fas fa-crown fa-2x"
   },
   {
-    "id": "2",
+    "id": "3",
     "name": "Music Player",
     "url": "https://i.imgur.com/peaWw6J.png?1",
     "description": "I created this music player inspired by Apple Music's interface. I used the audio API and Rabbit Lyrics synchronizer's CDN to make the lyrics appear dynamically while the song is being played. Try it out, it's a good song!",
@@ -18,7 +27,7 @@
     "icon": "fas fa-music fa-2x"
   },
   {
-    "id": "3",
+    "id": "4",
     "name": "Quiz App",
     "url": "https://i.imgur.com/Tyonixn.png?1",
     "description": "For this project I used HTML, CSS and JavaScript. I also fetched the trivia questions from the Open Trivia DB API and used Local Storage to keep track of the scores.",
@@ -27,7 +36,7 @@
     "icon": "fas fa-question fa-2x"
   },
   {
-    "id": "4",
+    "id": "5",
     "name": "Memory Cards",
     "url": "https://i.imgur.com/J81l85D.png?1",
     "description": "This project is a React adaptation of one of Brad Traversy's 20 vanilla JavaScript projects. I added some new features to this version such as being able to delete each card instead of just deleting all of them at once. Local Storage is used to save the created cards.",
@@ -36,7 +45,7 @@
     "icon": "fas fa-brain fa-2x"
   },
   {
-    "id": "5",
+    "id": "6",
     "name": "Pokémon Game",
     "url": "https://i.imgur.com/gzCY10b.png?1",
     "description": "This was my first project focused on Vanilla JavaScript. It's based on the logic of the Rock, Papers, Scissors game. I really enjoyed creating this one since it was mostly a fun activity to get more familiar with the language.",
@@ -45,7 +54,7 @@
     "icon": "fas fa-gamepad fa-2x"
   },
   {
-    "id": "6",
+    "id": "7",
     "name": "Testih",
     "url": "https://i.imgur.com/YN2zd5Y.png?1",
     "description": "I created this app by the end of 2019. I thought it was a good idea for people to have an app that would show them health centres where they could go and take the HIV test in Santiago for free. It also shows the centres where the PrEP pill is given. For this one, I used Ruby on Rails, Bootstrap, the Google maps API, the Facebook Login API, and PostgreSQL for the data base.",
@@ -54,7 +63,7 @@
     "icon": "fas fa-prescription-bottle-alt fa-2x"
   },
   {
-    "id": "7",
+    "id": "8",
     "name": "Meal Finder",
     "url": "https://i.imgur.com/5fVMRfi.png?1",
     "description": "This project uses HTML,CSS and JavaScript. In this small project the MealDB API was used to fetch the meals searched by the user.",
@@ -63,7 +72,7 @@
     "icon": "fas fa-utensils fa-2x"
   },
   {
-    "id": "8",
+    "id": "9",
     "name": "Barbershop",
     "url": "https://i.imgur.com/7j3Xzgy.png?1",
     "description": "In this simple landing page I used Bootstrap with Sass, following BEM methodology. It was mainly a means to practice this convention.",
@@ -72,7 +81,7 @@
     "icon": "fas fa-cut fa-2x"
   },
   {
-    "id": "9",
+    "id": "10",
     "name": "iTech",
     "url": "https://i.imgur.com/RDwk0gO.png?1",
     "description": "This was a project created with Bootstrap as part of a test for one of my courses. This was mainly to practice and get familiar with Bootstrap components.",
