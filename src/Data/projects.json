@@ -2,8 +2,8 @@
   {
     "id": "1",
     "name": "Library",
-    "url": "https://i.imgur.com/8ek8wWp.png?1",
-    "description": "I created this library app to be more familiar with Vue CLI and how Firebase storage works. The idea is that the user enters the title and the author of a book they want to read. After it's read, the user can update the checkbox of the book and this moves to the 'Read Books' column.",
+    "url": "https://i.imgur.com/zIeHwFj.png?2",
+    "description": "I created this library app to be more familiar with Vue CLI and how Cloud Firestore from Firebase works. The idea is that the user enters the title and the author of a book they want to read. After it's been read, the user can update the checkbox of the book and the book moves to the 'Read Books' column.",
     "tools": "Vue CLI, Firebase, Netlify",
     "projectUrl": "https://iamamitito-library.netlify.app",
     "icon": "fas fa-book fa-2x"
