@@ -1,6 +1,7 @@
 .Project {
   margin: 15px 10px;
   transition: transform 0.35s ease-in-out;
+  cursor: pointer;
 }
 .Project-img {
   position: relative;

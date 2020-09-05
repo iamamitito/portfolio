@@ -1,9 +1,13 @@
+.FullProject {
+  margin-top: 50px;
+}
+
 .FullProject img {
   border-radius: 4px;
   width: 100%;
 }
-.FullProject h1 {
-  margin: 60px 10px;
+.FullProject h2 {
+  margin: 40px 10px;
 }
 .FullProject p {
   line-height: 28px;
@@ -15,4 +19,8 @@
 .FullProject a {
   text-decoration: none;
   color: inherit;
+}
+.go-back {
+  margin-top: 100px;
+  font-size: 22px;
 }

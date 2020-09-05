@@ -6,7 +6,8 @@
     "description": "I created this library app to be more familiar with Vue CLI and how Cloud Firestore from Firebase works. The idea is that the user enters the title and the author of a book they want to read. After it's been read, the user can update the checkbox of the book and the book moves to the 'Read Books' column.",
     "tools": "Vue CLI, Firebase, Netlify",
     "projectUrl": "https://iamamitito-library.netlify.app",
-    "icon": "fas fa-book fa-2x"
+    "icon": "fas fa-book fa-2x",
+    "repository": "https://github.com/iamamitito/library"
   },
   {
     "id": "2",
@@ -15,7 +16,8 @@
     "description": "I created this quiz app not only to be more familiar with React, but also to have fun. Rupaul's drag race is one of my favourite shows and when I found out there was an API with data from the show I had to do something about it. For this project I used the No Key No Shade API, tailwindcss for the styles and react-router.",
     "tools": "Create-react-app, tailwindcss, react-router",
     "projectUrl": "https://iamamitito.github.io/lipsyncquiz",
-    "icon": "fas fa-crown fa-2x"
+    "icon": "fas fa-crown fa-2x",
+    "repository": "https://github.com/iamamitito/lipsyncquiz"
   },
   {
     "id": "3",
@@ -24,7 +26,8 @@
     "description": "I created this music player inspired by Apple Music's interface. I used the audio API and Rabbit Lyrics synchronizer's CDN to make the lyrics appear dynamically while the song is being played. Try it out, it's a good song!",
     "tools": "Audio API, Rabbit Lyrics",
     "projectUrl": "https://iamamitito.github.io/music-player",
-    "icon": "fas fa-music fa-2x"
+    "icon": "fas fa-music fa-2x",
+    "repository": "https://github.com/iamamitito/music-player"
   },
   {
     "id": "4",
@@ -33,7 +36,8 @@
     "description": "For this project I used HTML, CSS and JavaScript. I also fetched the trivia questions from the Open Trivia DB API and used Local Storage to keep track of the scores.",
     "tools": "Fetch API, Local Storage",
     "projectUrl": "https://iamamitito.github.io/quiz",
-    "icon": "fas fa-question fa-2x"
+    "icon": "fas fa-question fa-2x",
+    "repository": "https://github.com/iamamitito/quiz"
   },
   {
     "id": "5",
@@ -42,7 +46,8 @@
     "description": "This project is a React adaptation of one of Brad Traversy's 20 vanilla JavaScript projects. I added some new features to this version such as being able to delete each card instead of just deleting all of them at once. Local Storage is used to save the created cards.",
     "tools": "Create-react-app, Local Storage",
     "projectUrl": "https://iamamitito.github.io/memory-cards",
-    "icon": "fas fa-brain fa-2x"
+    "icon": "fas fa-brain fa-2x",
+    "repository": "https://github.com/iamamitito/memory-cards"
   },
   {
     "id": "6",
@@ -51,7 +56,8 @@
     "description": "This was my first project focused on Vanilla JavaScript. It's based on the logic of the Rock, Papers, Scissors game. I really enjoyed creating this one since it was mostly a fun activity to get more familiar with the language.",
     "tools": "JavaScript, Audio API",
     "projectUrl": "https://iamamitito.github.io/pokemon-battle",
-    "icon": "fas fa-gamepad fa-2x"
+    "icon": "fas fa-gamepad fa-2x",
+    "repository": "https://github.com/iamamitito/pokemon-battle"
   },
   {
     "id": "7",
@@ -60,7 +66,8 @@
     "description": "I created this app by the end of 2019. I thought it was a good idea for people to have an app that would show them health centres where they could go and take the HIV test in Santiago for free. It also shows the centres where the PrEP pill is given. For this one, I used Ruby on Rails, Bootstrap, the Google maps API, the Facebook Login API, and PostgreSQL for the data base.",
     "tools": "Ruby on Rails, Google Maps API, Facebook Login API",
     "projectUrl": "https://testih.herokuapp.com",
-    "icon": "fas fa-prescription-bottle-alt fa-2x"
+    "icon": "fas fa-prescription-bottle-alt fa-2x",
+    "repository": "https://github.com/iamamitito/Testih"
   },
   {
     "id": "8",
@@ -69,7 +76,8 @@
     "description": "This project uses HTML,CSS and JavaScript. In this small project the MealDB API was used to fetch the meals searched by the user.",
     "tools": "CSS grid, Fetch API",
     "projectUrl": "https://iamamitito.github.io/meal-finder",
-    "icon": "fas fa-utensils fa-2x"
+    "icon": "fas fa-utensils fa-2x",
+    "repository": "https://github.com/iamamitito/meal-finder"
   },
   {
     "id": "9",
@@ -78,7 +86,8 @@
     "description": "In this simple landing page I used Bootstrap with Sass, following BEM methodology. It was mainly a means to practice this convention.",
     "tools": "Bootstrap, Sass",
     "projectUrl": "https://iamamitito.github.io/Barbershop",
-    "icon": "fas fa-cut fa-2x"
+    "icon": "fas fa-cut fa-2x",
+    "repository": "https://github.com/iamamitito/Barbershop"
   },
   {
     "id": "10",
@@ -87,6 +96,7 @@
     "description": "This was a project created with Bootstrap as part of a test for one of my courses. This was mainly to practice and get familiar with Bootstrap components.",
     "tools": "HTML, CSS, Bootstrap",
     "projectUrl": "https://iamamitito.github.io/itech",
-    "icon": "fas fa-tablet-alt fa-2x"
+    "icon": "fas fa-tablet-alt fa-2x",
+    "repository": "https://github.com/iamamitito/itech"
   }
 ]

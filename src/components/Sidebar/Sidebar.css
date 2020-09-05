@@ -3,21 +3,25 @@
 }
 
 .Sidebar {
-  background-color: #3f454c;
+  background-color: #292d31;
   position: fixed;
   top: 0;
   left: 0;
-  width: 300px;
+  width: 320px;
   height: 100vh;
   z-index: 100;
   transform: translateX(-100%);
+  color: #f1f3f5;
+  font-weight: 100;
   opacity: 9;
   transition: transform 0.4s ease;
+  padding: 80px 40px 20px 20px;
+  line-height: 25px;
+  font-size: 15px;
 }
 .Sidebar .logo {
   display: flex;
   justify-content: flex-end;
-  padding: 100px 70px 20px 0;
 }
 .Sidebar .logo img {
   height: 100px;
@@ -26,12 +30,54 @@
 }
 .Sidebar ul {
   list-style-type: none;
-  display: flex;
   justify-content: flex-end;
-  padding-right: 70px;
 }
-.Sidebar ul li {
-  padding: 30px 0 30px 30px;
+
+.Sidebar ul.tools {
+  text-align: right;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
+.Sidebar ul.tools li {
+  margin: 7px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.Sidebar ul.tools li:nth-child(1) i {
+  color: #e07358e5;
+}
+.Sidebar ul.tools li:nth-child(2) i {
+  color: #5da7dbe8;
+}
+.Sidebar ul.tools li:nth-child(3) i {
+  color: #ebda6ee8;
+}
+.Sidebar ul.tools li:nth-child(4) i {
+  color: #7b5da7ea;
+}
+.Sidebar ul.tools li:nth-child(5) i {
+  color: #da72a4e5;
+}
+.Sidebar ul.tools li:nth-child(6) i {
+  color: #f37e67e8;
+}
+.Sidebar ul.tools li:nth-child(7) i {
+  color: #76d0e6e1;
+}
+.Sidebar ul.tools li:nth-child(8) i {
+  color: #4ed397e3;
+}
+
+.Sidebar ul.tools li i {
+  font-size: 20px;
+}
+.Sidebar ul.media {
+  display: flex;
+}
+.Sidebar ul.media li {
+  padding: 0 0 15px 20px;
 }
 
 .Sidebar ul li a {
@@ -40,21 +86,16 @@
   font-size: 14px;
 }
 .Sidebar p {
-  color: #f1f3f5;
-  line-height: 28px;
-  padding: 10px 60px 10px 10px;
   text-align: right;
-  font-weight: 100;
-  font-size: 15px;
 }
 .Sidebar ul li a:hover {
-  color: #47ffe9;
+  color: #af8bf1b6;
 }
 
 .Sidebar .toggle {
   position: fixed;
   top: 20px;
-  left: 310px;
+  left: 330px;
   background-color: rgba(255, 255, 255, 0.5);
   border: none;
   color: #585858;
@@ -68,7 +109,12 @@
 
 @media (min-width: 600px) {
   .Sidebar {
-    width: 450px;
+    width: 470px;
+    line-height: 25px;
+    padding: 100px 40px 20px 10px;
+  }
+  .Sidebar .logo {
+    padding-bottom: 30px;
   }
   .Sidebar .logo img {
     height: 120px;
@@ -76,6 +122,23 @@
   }
   .Sidebar .toggle {
     top: 20px;
-    left: 460px;
+    left: 480px;
+  }
+}
+@media (max-width: 330px) {
+  .Sidebar {
+    width: 255px;
+    font-size: 13px;
+    padding: 40px 30px 0px 5px;
+    line-height: 20px;
+  }
+
+  .Sidebar .logo img {
+    height: 70px;
+    width: 70px;
+  }
+  .Sidebar .toggle {
+    top: 20px;
+    left: 265px;
   }
 }
